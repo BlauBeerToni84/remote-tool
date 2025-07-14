@@ -9,3 +9,4 @@ local.properties
 # Sonstiger Müll
 *.log
 *.bak
+# Test
