@@ -1,0 +1,11 @@
+# Android Studio Build-Verzeichnisse
+/build
+/.gradle
+/.idea
+*.iml
+local.properties
+*.apk
+*.aab
+# Sonstiger Müll
+*.log
+*.bak
