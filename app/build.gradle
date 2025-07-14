@@ -10,8 +10,17 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    signingConfigs {
+        release {
+            storeFile file('../fuckshitkey.jks')
+            storePassword 'deinPasswort' // Ersetz mit deinem JKS-Passwort
+            keyAlias 'fuckshit'
+            keyPassword 'deinPasswort' // Ersetz mit deinem JKS-Passwort
+        }
+    }
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
