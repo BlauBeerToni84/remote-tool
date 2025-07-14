@@ -10,3 +10,9 @@ local.properties
 *.log
 *.bak
 # Test
+commandlinetools.zip
+ssh_kiwi
+ssh_kiwi.pub
+master
+.gradle/
+build/
